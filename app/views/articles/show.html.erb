@@ -1,0 +1,10 @@
+<h1>Look at this Beauty: <%= @article.title %></h1>
+
+<h3>Content : <%= @article.content%></h3>
+
+
+<br>
+
+<%= link_to "Go Back", articles_path%>
+<%= link_to "Edit", edit_article_path(@article)%>\
+<%= link_to "Delete", article_path(@article), method: :delete, data: {confirm: "Really?"}%>

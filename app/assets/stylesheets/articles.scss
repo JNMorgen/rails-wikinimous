@@ -1,0 +1,33 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+//font-family: 'Inconsolata', monospace;
+
+
+
+body{
+	background-color: blue;
+	font-family: 'Poppins', sans-serif;
+	color: yellow;
+
+	a:link {
+      color: red;
+}
+
+	a:visited {
+      color: green;
+}
+
+	a:hover {
+      color: hotpink;
+}
+
+	a:active {
+      color: blue;
+} 
+text-align: center;
+
+}
+
